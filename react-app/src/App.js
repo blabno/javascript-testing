@@ -14,7 +14,7 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           {this.state.showGreeting || <Button onClick={this.greet}>Say hello</Button>}
-          {this.state.showGreeting && <h1>Hello World</h1>}
+          {this.state.showGreeting && <h1 className="greeting">Hello World</h1>}
         </div>
       </div>
     );
